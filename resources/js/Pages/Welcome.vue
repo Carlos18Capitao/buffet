@@ -15,6 +15,5 @@ defineProps({
     <Head title="Home" />
     <HearoArea />
     <Section />
-     <!-- end client section -->
     <Footer />
 </template>
