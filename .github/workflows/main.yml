@@ -32,7 +32,7 @@ jobs:
           switches: -avz --delete
           path: ./
           remote_path: /home/usuario/public_html/
-          remote_host: ${{ secrets.CPANEL_SSH_HOST }}
+          remote_host: "65.108.244.136"
           remote_user: ${{ secrets.CPANEL_SSH_USER }}
           remote_key: ${{ secrets.CPANEL_SSH_KEY }}
 
